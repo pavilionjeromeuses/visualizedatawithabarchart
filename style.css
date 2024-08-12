@@ -1,0 +1,26 @@
+html, body {
+    color: #242729;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 13px;
+}
+body {text-align: center;}
+svg {border: 1px solid black; margin-top: 100px}
+.bar:hover {
+    fill: green;
+  }
+ svg {
+    box-shadow: 5px 10px #888888;
+ } 
+#tooltip {
+    color:rgb(43, 3, 3);
+    display: flex;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 45px;
+    padding: 2px;
+    font: 12px;
+    background: rgb(183, 191, 201);
+    box-shadow: 1px 1px 10px;
+    border-radius: 4px;
+}
